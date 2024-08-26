@@ -1,1 +1,31 @@
-# modern-react-with-redux
+# Modern React with Redux
+
+## Repo Structure
+
+- [Section 1: Starter Content](01-starter-content/README.md)
+- [Section 2: Creating Content with JSX](02-creating-content-with-jsx/README.md)
+- [Section 3: Building with Reusable Components](03-building-with-reusable-components/README.md)
+- [Section 4: State: How to Change Your App](04-state-how-to-change-your-app/README.md)
+- [Section 5: Using an API with React](05-using-an-api-with-react/README.md)
+- [Section 6: How to Handle Forms](06-how-to-handle-forms/README.md)
+- [Section 7: Data Persistence with API Requests](07-data-persistence-with-api-requests/README.md)
+- [Section 8: Communication Using the Context System](08-communication-using-the-context-system/README.md)
+- [Section 9: Deeper Dive into Hooks!](09-deeper-dive-into-hooks/README.md)
+- [Section 10: Custom Navigation and Routing Systems](10-custom-navigation-and-routing-systems/README.md)
+- [Section 11: Mastering the State Design Process](11-mastering-the-state-design-process/README.md)
+- [Section 12: Practicing Props and State Design](12-practicing-props-and-state-design/README.md)
+- [Section 13: Making Navigation Reusable](13-making-navigation-reusable/README.md)
+- [Section 14: Creating Portals with ReactDOM](14-creating-portals-with-reactdom/README.md)
+- [Section 15: Make a Feature-Full Data Table!](15-make-a-feature-full-data-table/README.md)
+- [Section 16: Getting Clever with Data Sorting](16-getting-clever-with-data-sorting/README.md)
+- [Section 17: Custom Hooks In Depth](17-custom-hooks-in-depth/README.md)
+- [Section 18: Into the World of Reducers](18-into-the-world-of-reducers/README.md)
+- [Section 19: Dive into Redux Toolkit](19-dive-into-redux-toolkit/README.md)
+- [Section 20: Managing Multiple Slices with Redux Toolkit](20-managing-multiple-slices-with-redux-toolkit/README.md)
+- [Section 21: Interfacing with API's Using Async Thunks](21-interfacing-with-apis-using-async-thunks/README.md)
+- [Section 22: Modern Async with Redux Toolkit Query](22-modern-async-with-redux-toolkit-query/README.md)
+- [Section 23: Diving Into TypeScript](23-diving-into-typescript/README.md)
+- [Section 24: Build a Google Maps Clone with Typescript](24-build-a-google-maps-clone-with-typescript/README.md)
+- [Section 25: Navigation and Data Fetching with React Router](25-navigation-and-data-fetching-with-react-router/README.md)
+- [Section 26: Legacy Version of Modern React with Redux Course](26-legacy-version-of-modern-react-with-redux-course/README.md)
+- [Section 27: Bonus!](27-bonus/README.md)
