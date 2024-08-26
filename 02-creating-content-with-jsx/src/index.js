@@ -1,17 +1,41 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+// 1. Import the React and ReactDOM libraries
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+// 2. Cet a reference to the div with ID root
+// "<h1>Hello React World!</h1>"
+const rootElement = document.getElementById("root");
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// 3. Tell React to take control of that element
+const root = ReactDOM.createRoot(rootElement);
+
+// 4. Create a simple component
+function BasicApp() {
+  const message = "Hi There!";
+  const inputType = "number";
+  const minValue = 5;
+  return (
+    <>
+      <div>
+        <h1>{message} This is the updated root element.</h1>
+        <input
+          style={{ border: "3px solid black" }}
+          type={inputType}
+          min={minValue}
+        />
+      </div>
+      <div>
+        <textarea autoFocus={true} />
+      </div>
+      <div>
+        <input style={{ border: "1px solid blue" }} />
+      </div>
+    </>
+  );
+}
+
+// 5. Show the component on the screen
+root.render(<App />);
+
+// 6. Cheatsheet: https://jsx-notes.vercel.app/
